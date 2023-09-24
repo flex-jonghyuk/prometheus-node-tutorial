@@ -7,7 +7,7 @@ collectDefaultMetrics({ prefix: "nodejs_" });
 
 fastify.get("/metrics", (_, res) => {
   res.header("Content-Type", register.contentType);
-  res.send(register.metrics());
+  return register.metrics();
 });
 
 fastify.get("/fibonacci/:n", (req, res) => {
@@ -16,7 +16,7 @@ fastify.get("/fibonacci/:n", (req, res) => {
   res.send({ result });
 });
 
-fastify.listen({ port: 3000 }, (err) => {
+fastify.listen({ port: 8080 }, (err) => {
   if (err) {
     fastify.log.error(err);
     process.exit(1);
