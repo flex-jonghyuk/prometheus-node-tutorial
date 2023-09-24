@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "type": "module",
   "description": "프로메테우스 노드 서버 튜토리얼",
-  "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node build.js && node dist/server.mjs"
+  },
+  "dependencies": {
+    "@swc/core": "^1.3.88",
+    "@swc/register": "^0.1.10",
+    "esbuild": "^0.19.3",
+    "fastify": "^4.23.2",
+    "prom-client": "^14.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
