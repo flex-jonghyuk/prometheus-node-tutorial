@@ -1,0 +1,8 @@
+{
+  "name": "prometheus-node-tutorial",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "프로메테우스 노드 서버 튜토리얼",
+  "main": "index.js",
+  "license": "MIT"
+}
