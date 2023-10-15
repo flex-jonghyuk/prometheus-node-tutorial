@@ -1,0 +1,17 @@
+{
+	"ulid": "01HCSVAXE5TGC22HKRHACQ8B8F",
+	"minTime": 1695566517094,
+	"maxTime": 1695571200000,
+	"stats": {
+		"numSamples": 48068,
+		"numSeries": 1525,
+		"numChunks": 1525
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HCSVAXE5TGC22HKRHACQ8B8F"
+		]
+	},
+	"version": 1
+}

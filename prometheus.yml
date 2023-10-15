@@ -4,4 +4,4 @@ global:
 scrape_configs:
   - job_name: "fastify-server"
     static_configs:
-      - targets: ["localhost:3000"]
+      - targets: ["localhost:8080"]

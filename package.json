@@ -5,7 +5,8 @@
   "description": "프로메테우스 노드 서버 튜토리얼",
   "license": "MIT",
   "scripts": {
-    "start": "node build.js && node dist/server.mjs"
+    "start:node": "node build.js && node dist/server.mjs",
+    "start:prom": "prometheus --config.file=prometheus.yml"
   },
   "dependencies": {
     "@swc/core": "^1.3.88",
