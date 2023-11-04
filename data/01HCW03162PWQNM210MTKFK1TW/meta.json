@@ -1,0 +1,17 @@
+{
+	"ulid": "01HCW03162PWQNM210MTKFK1TW",
+	"minTime": 1697379612095,
+	"maxTime": 1697385600000,
+	"stats": {
+		"numSamples": 28017,
+		"numSeries": 102,
+		"numChunks": 216
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01HCW03162PWQNM210MTKFK1TW"
+		]
+	},
+	"version": 1
+}

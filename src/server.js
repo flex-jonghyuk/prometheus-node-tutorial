@@ -8,7 +8,7 @@ import {
 
 const fastify = fastifyModule({ logger: true });
 
-collectDefaultMetrics({ prefix: "nodejs_" });
+collectDefaultMetrics();
 
 const totalRequests = new Counter({
   name: "http_total_requests",
